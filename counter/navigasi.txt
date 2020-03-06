@@ -1,0 +1,71 @@
+<?php
+if($_GET['module']=='home'){
+	echo "<span class='current'>Home</span>";
+}
+elseif($_GET['module']=='hasilpoling'){
+	echo "<span class='current'>Hasil Polling</span>";
+}
+elseif($_GET['module']=='lihatpoling'){
+	echo "<span class='current'>Lihat Polling</span>";
+}
+elseif($_GET['module']=='lokasi'){
+	echo "<span class='current'>Lokasi Kami</span>";
+}
+elseif($_GET['module']=='sejarahkami'){
+	echo "<span class='current'>Sejarah Kami</span>";
+}
+elseif($_GET['module']=='visikami'){
+	echo "<span class='current'>Visi dan Misi</span>";
+}
+elseif($_GET['module']=='strukturkami'){
+	echo "<span class='current'>Struktur</span>";
+}
+
+elseif($_GET['module']=='tahfidz'){
+	echo "<span class='current'>Program Tahfidz</span>";
+}
+elseif($_GET['module']=='bahasa'){
+	echo "<span class='current'>Program Bahasa</span>";
+}
+
+elseif($_GET['module']=='keasramaan'){
+	echo "<span class='current'>Keasramaan</span>";
+}
+elseif($_GET['module']=='prestasi'){
+	echo "<span class='current'>Prestasi</span>";
+}
+elseif($_GET['module']=='detailberita'){
+	echo "<span class='current'>Berita</span>";
+}
+elseif($_GET['module']=='semuaagenda'){
+	echo "<span class='current'>Agenda</span>";
+}
+elseif($_GET['module']=='semuadownload'){
+	echo "<span class='current'>Download</span>";
+}
+
+elseif($_GET['module']=='hubungikami'){
+	echo "<span class='current'>Hubungi Kami</span>";
+}
+elseif($_GET['module']=='hubungiaksi'){
+	echo "<span class='current'>Hubungi Aksi</span>";
+}
+elseif($_GET['module']=='menudaftar'){
+	echo "<span class='current'>Pendaftaran</span>";
+}
+elseif($_GET['module']=='daftarpsb'){
+	echo "<span class='current'>Daftar Online</span>";
+}
+elseif($_GET['module']=='daftaraksi'){
+	echo "<span class='current'>Daftar Online</span>";
+}
+elseif($_GET['module']=='lihatdaftar'){
+	echo "<span class='current'>Lihat Pendaftar</span>";
+}
+elseif($_GET['module']=='kurikulum'){
+	echo "<span class='current'>Kurikulum</span>";
+}
+elseif($_GET['module']=='fasilitas'){
+	echo "<span class='current'>Fasilitas Kami</span>";
+}
+?>
